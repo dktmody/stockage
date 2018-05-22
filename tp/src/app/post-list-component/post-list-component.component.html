@@ -1,0 +1,16 @@
+
+<li [ngClass]="{'list-group-item': false,
+                'list-group-item-success': this.postsNbLove > this.postnbDontLov,
+                'list-group-item-danger': this.postsNbLove < this.postnbDontLov}">
+
+
+
+  <h2 style="display: inline">{{postsTitle}} </h2>
+    <p style="display: inline; float: right">{{lastUpdate | date: 'short' }}</p>
+
+
+
+  <p>{{postsContent}}</p>
+    <button class="btn btn-success" [disabled]="!isAuth" (click)="onLove()">Love it !</button>
+    <button class="btn btn-danger" [disabled]="!isAuth" (click)="onDontLove()">Don't love it !</button>
+</li>

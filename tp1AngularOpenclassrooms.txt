@@ -1,0 +1,2 @@
+﻿Application qui affiche les posts d'un blog, et chaque post a un bouton permettant de "love it" ou de "don't love it".
+L'URL de mon repository : https://github.com/dktmody/demo_git.git

@@ -1,0 +1,10 @@
+les liens des projets angulars que j'ai corrigés
+
+
+leurs projets est enregistrés dans demo_git
+
+1 =>  Lien github : https://github.com/AdrienPignet/exercice-blog
+
+2 => https://github.com/ajie62/oc-exercise-angular
+
+3 => https://github.com/bouloan/blog-angular.git
